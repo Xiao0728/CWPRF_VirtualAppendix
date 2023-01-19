@@ -1,0 +1,6 @@
+transformers==4.10.0
+ujson
+mlflow
+tensorboard
+tqdm
+torch
