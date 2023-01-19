@@ -37,3 +37,6 @@ Main Results reported in the paper: Test on both TREC 2019 and TREC 2020 query s
 Hyperparameter search on validation set: [Hyper-parameter search Notebook](https://github.com/Xiao0728/CWPRF/blob/main/CWPRF_Inference.ipynb)
 
 
+# Reproduce the results of CWPRF and various baselines
+
+The result res files of CWPRF and various baselines for both TREC query sets are provided in the folder: [CWPRF VirtualAppendix](https://github.com/Xiao0728/CWPRF/tree/master/CWPRF_VirtualAppendix). 
