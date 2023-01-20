@@ -13,7 +13,7 @@ We have two training modes: AAAT and OAAT training modes to train CWPRF.
 
 - Training command for CWPRF-AAAT
 ```
-ppython -m colbert.train_AAAT --amp  --doc_maxlen 180  --mask-punctuation --bsize 24 --accum 1 --triples /path/to/train/triples.train.small.tsv --checkpoint /path/to/ColBERT/Checkpoints/colbert.dnn --root /path/to/save/checkpoint/SPRF_AAAT --experiment psg --run CWPRF --num_prf 3 --in_batch_negs --checkpoint_init  
+python -m colbert.train_AAAT --amp  --doc_maxlen 180  --mask-punctuation --bsize 24 --accum 1 --triples /path/to/train/triples.train.small.tsv --checkpoint /path/to/ColBERT/Checkpoints/colbert.dnn --root /path/to/save/checkpoint/SPRF_AAAT --experiment psg --run CWPRF --num_prf 3 --in_batch_negs --checkpoint_init  
 
 ```
 
@@ -22,7 +22,7 @@ ppython -m colbert.train_AAAT --amp  --doc_maxlen 180  --mask-punctuation --bsiz
 
 - Training command for CWPRF-OAAT
 ```
-ppython -m colbert.train_OAAT --amp  --doc_maxlen 180  --mask-punctuation --bsize 24 --accum 1 --triples /path/to/train/triples.train.small.tsv --checkpoint /path/to/ColBERT/Checkpoints/colbert.dnn --root /path/to/save/checkpoint/SPRF_OAAT --experiment psg --run CWPRF --num_prf 3 --in_batch_negs --checkpoint_init  
+python -m colbert.train_OAAT --amp  --doc_maxlen 180  --mask-punctuation --bsize 24 --accum 1 --triples /path/to/train/triples.train.small.tsv --checkpoint /path/to/ColBERT/Checkpoints/colbert.dnn --root /path/to/save/checkpoint/SPRF_OAAT --experiment psg --run CWPRF --num_prf 3 --in_batch_negs --checkpoint_init  
 
 ```
 
