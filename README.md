@@ -29,9 +29,9 @@ python -m colbert.train_OAAT --amp  --doc_maxlen 180  --mask-punctuation --bsize
 
 # Retrieval with CWPRF
 
-Validation on TREC 2019 query set: [Validation Notebook](https://github.com/Xiao0728/CWPRF/blob/master/CWPRF_Inference.ipynb)
+Validation on TREC 2019 query set: [Validation Notebook](/CWPRF_Inference.ipynb)
 
-Main Results reported in the paper: Test on both TREC 2019 and TREC 2020 query set: [Test Notebook](https://github.com/Xiao0728/CWPRF/blob/master/CWPRF_Inference.ipynb)
+Main Results reported in the paper: Test on both TREC 2019 and TREC 2020 query set: [Test Notebook](/CWPRF_Inference.ipynb)
 
 # Hyperparameter Search
 
@@ -40,4 +40,4 @@ Hyperparameter search on validation set: [Hyper-parameter search Notebook](https
 
 # Reproduce the results of CWPRF and various baselines
 
-The result res files of CWPRF and various baselines for both TREC query sets are provided in the folder: [CWPRF VirtualAppendix](https://github.com/Xiao0728/CWPRF/tree/master/CWPRF_VirtualAppendix). 
+The result res files of CWPRF and various baselines for both TREC query sets are provided in the folder: [CWPRF VirtualAppendix](/CWPRF_VirtualAppendix). 
