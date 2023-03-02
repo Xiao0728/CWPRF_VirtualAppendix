@@ -31,7 +31,7 @@ python -m colbert.train_OAAT --amp  --doc_maxlen 180  --mask-punctuation --bsize
 
 Validation on TREC 2019 query set: [Validation Notebook](CWPRF_Inference.ipynb)
 
-Main Results reported in the paper: Test on both TREC 2019 and TREC 2020 query set: [Test Notebook](./CWPRF_Inference.ipynb)
+Main Results reported in the paper: Test on both TREC 2019 and TREC 2020 query set: [Test Notebook](CWPRF_Inference.ipynb)
 
 # Hyperparameter Search
 
