@@ -1,7 +1,7 @@
 # CWPRF implementation
 
 
-This repository provides the code for training and retrieval of CWPRF. Before runining the following experiments, please install the dependencies in the  environment.txt file.
+This repository provides the code for training and retrieval of CWPRF [ACL2023: Effective Contrastive Weighting for Dense Query Expansion](https://aclanthology.org/2023.acl-long.710.pdf). Before running the following experiments, please install the dependencies in the  environment.txt file.
 
 The datasets as well as the query sets used in CWPRF can be downloaded from: https://microsoft.github.io/msmarco/TREC-Deep-Learning
 
